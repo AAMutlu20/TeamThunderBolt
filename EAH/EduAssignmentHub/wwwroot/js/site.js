@@ -1,4 +1,13 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿document.addEventListener('DOMContentLoaded', function() {
+    const header = document.querySelector('header');
+    const heroSection = document.querySelector('#hero');
+    const heroHeight = heroSection.offsetHeight;
 
-// Write your JavaScript code.
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > heroHeight) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+});
