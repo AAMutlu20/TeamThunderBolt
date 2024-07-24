@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2gMYqzDxZ0OVzTq2sF44Rq1E7DsMK4l1gkQaPbfIywc=",
+  "Hash": "Qgrm/Wy2Rr7esppoGMuEZURH/S9lWEsj16x0wim4aLQ=",
   "Source": "EduAssignmentHub",
   "BasePath": "_content/EduAssignmentHub",
   "Mode": "Default",
@@ -1288,6 +1288,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\EAH.png"
+    },
+    {
+      "Identity": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\images\\HeroImg.png",
+      "SourceId": "EduAssignmentHub",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\",
+      "BasePath": "_content/EduAssignmentHub",
+      "RelativePath": "images/HeroImg.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\HeroImg.png"
     },
     {
       "Identity": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\js\\Login.js",

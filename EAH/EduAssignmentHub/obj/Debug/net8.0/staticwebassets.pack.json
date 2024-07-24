@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\images\\EAH_Long.png"
     },
     {
+      "Id": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\images\\HeroImg.png",
+      "PackagePath": "staticwebassets\\images\\HeroImg.png"
+    },
+    {
       "Id": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\js\\Login.js",
       "PackagePath": "staticwebassets\\js\\Login.js"
     },
