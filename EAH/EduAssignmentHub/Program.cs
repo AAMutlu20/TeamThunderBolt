@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using EduAssignmentHub.Data;
+using System.Net.Http.Headers;
+using Microsoft.AspNetCore.Authentication;
 
 namespace EduAssignmentHub;
 
@@ -19,7 +21,19 @@ public class Program
 
         builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
             .AddEntityFrameworkStores<ApplicationDbContext>();
+
         builder.Services.AddControllersWithViews();
+
+        // Register HttpClient for communicating with the API
+        builder.Services.AddHttpClient("ApiClient", client =>
+        {
+            client.BaseAddress = new Uri("http://localhost:5150"); // Replace with your API URL
+            client.DefaultRequestHeaders.Accept.Clear();
+            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+        });
+
+        // Register AuthenticationService
+        builder.Services.AddScoped<AuthenticationService>();
 
         var app = builder.Build();
 
@@ -31,7 +45,6 @@ public class Program
         else
         {
             app.UseExceptionHandler("/Home/Error");
-            // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
             app.UseHsts();
         }
 

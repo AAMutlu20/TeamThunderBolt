@@ -19,4 +19,25 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.1"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="LoginMicroservice\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="LoginMicroservice\appsettings.json" />
+      <_ContentIncludedByDefault Remove="LoginMicroservice\obj\LoginMicroservice.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="LoginMicroservice\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="LoginMicroservice\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="LoginMicroservice\Properties\launchSettings.json" />
+      <_ContentIncludedByDefault Remove="LoginAPI\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="LoginAPI\appsettings.json" />
+      <_ContentIncludedByDefault Remove="LoginAPI\bin\Debug\net8.0\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="LoginAPI\bin\Debug\net8.0\appsettings.json" />
+      <_ContentIncludedByDefault Remove="LoginAPI\bin\Debug\net8.0\LoginAPI.deps.json" />
+      <_ContentIncludedByDefault Remove="LoginAPI\bin\Debug\net8.0\LoginAPI.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="LoginAPI\obj\Debug\net8.0\LoginAPI.sourcelink.json" />
+      <_ContentIncludedByDefault Remove="LoginAPI\obj\Debug\net8.0\staticwebassets.build.json" />
+      <_ContentIncludedByDefault Remove="LoginAPI\obj\LoginAPI.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="LoginAPI\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="LoginAPI\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="LoginAPI\Properties\launchSettings.json" />
+    </ItemGroup>
+
 </Project>

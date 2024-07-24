@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduAssignmentHub", "EduAssignmentHub.csproj", "{56387CBF-6F54-4182-B90E-3AEFE3EB8CC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginAPI", "..\LoginAPI\LoginAPI.csproj", "{84CB49EC-ADE5-42BD-AA5D-00C299DBEF5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{56387CBF-6F54-4182-B90E-3AEFE3EB8CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56387CBF-6F54-4182-B90E-3AEFE3EB8CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56387CBF-6F54-4182-B90E-3AEFE3EB8CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84CB49EC-ADE5-42BD-AA5D-00C299DBEF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84CB49EC-ADE5-42BD-AA5D-00C299DBEF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84CB49EC-ADE5-42BD-AA5D-00C299DBEF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84CB49EC-ADE5-42BD-AA5D-00C299DBEF5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
