@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/AAMutlu20/TeamThunderBolt">
-    <img src="GitImages/EAH.png" alt="Logo" width="80" height="80">
+    <img src="GitImages/EAH.png" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">Educational Assignment Hub</h3>
