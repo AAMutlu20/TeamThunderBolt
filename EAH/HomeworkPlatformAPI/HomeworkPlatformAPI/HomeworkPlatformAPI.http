@@ -1,0 +1,6 @@
+@HomeworkPlatformAPI_HostAddress = http://localhost:5208
+
+GET {{HomeworkPlatformAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
