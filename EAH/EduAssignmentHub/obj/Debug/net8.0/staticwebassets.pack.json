@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\css\\Login.css"
     },
     {
+      "Id": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\css\\Privacy.css",
+      "PackagePath": "staticwebassets\\css\\Privacy.css"
+    },
+    {
+      "Id": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\css\\Terms.css",
+      "PackagePath": "staticwebassets\\css\\Terms.css"
+    },
+    {
       "Id": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -47,6 +55,10 @@
     {
       "Id": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\js\\Login.js",
       "PackagePath": "staticwebassets\\js\\Login.js"
+    },
+    {
+      "Id": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\js\\privacy.js",
+      "PackagePath": "staticwebassets\\js\\privacy.js"
     },
     {
       "Id": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\js\\site.js",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gfqgU83dgYfqly+7scuRJGLRZVCnDajjBI+x+QKxNSY=",
+  "Hash": "qBDoQ7p85/B58L5tH/T6M9ChOo0uG3tSdJgDYDhXui8=",
   "Source": "EduAssignmentHub",
   "BasePath": "_content/EduAssignmentHub",
   "Mode": "Default",
@@ -1214,6 +1214,25 @@
       "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
+      "Identity": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\css\\Privacy.css",
+      "SourceId": "EduAssignmentHub",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\",
+      "BasePath": "_content/EduAssignmentHub",
+      "RelativePath": "css/Privacy.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Privacy.css"
+    },
+    {
       "Identity": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\css\\site.css",
       "SourceId": "EduAssignmentHub",
       "SourceType": "Discovered",
@@ -1309,6 +1328,25 @@
       "OriginalItemSpec": "wwwroot\\css\\students\\student.css"
     },
     {
+      "Identity": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\css\\Terms.css",
+      "SourceId": "EduAssignmentHub",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\",
+      "BasePath": "_content/EduAssignmentHub",
+      "RelativePath": "css/Terms.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Terms.css"
+    },
+    {
       "Identity": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\favicon.ico",
       "SourceId": "EduAssignmentHub",
       "SourceType": "Discovered",
@@ -1402,6 +1440,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Login.js"
+    },
+    {
+      "Identity": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\js\\privacy.js",
+      "SourceId": "EduAssignmentHub",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\",
+      "BasePath": "_content/EduAssignmentHub",
+      "RelativePath": "js/privacy.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\privacy.js"
     },
     {
       "Identity": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\js\\site.js",

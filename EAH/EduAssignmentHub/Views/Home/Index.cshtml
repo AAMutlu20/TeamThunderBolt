@@ -19,11 +19,11 @@
     </div>
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
+            <li><a asp-action="Index" asp-controller="Home">Home</a></li>
             <li><a href="#features">Features</a></li>
             <li><a href="#how-it-works">How It Works</a></li>
             <li><a href="#resources">Resources</a></li>
-            <li><a asp-action="Login" asp-controller="Account">Login</a></li>
+            <li><a asp-action="Privacy" asp-controller="Home">Privacy</a></li>
         </ul>
     </nav>
 </header>
@@ -102,18 +102,13 @@
 <!-- Footer Section -->
 <footer>
     <div class="footer-links">
-        <a href="#home">Home</a>
+        <a asp-action="Index" asp-controller="Home">Home</a>
         <a href="#features">Features</a>
         <a href="#how-it-works">How It Works</a>
         <a href="#resources">Resources</a>
         <a asp-action="Login" asp-controller="Account">Login</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Service</a>
-    </div>
-    <div class="footer-social">
-        <a href="#"><ion-icon name="logo-facebook" class="icon" alt="Facebook"></ion-icon></a>
-        <a href="#"><ion-icon name="logo-twitter" class="icon" alt="Twitter"></ion-icon></a>
-        <a href="#"><ion-icon name="logo-linkedin" class="icon" alt="LinkedIn"></ion-icon></a>
+        <a asp-action="Privacy" asp-controller="Home">Privacy Policy</a>
+        <a asp-action="Terms" asp-controller="Home">Terms of Service</a>
     </div>
     <div class="footer-contact">
         <p>Email: info@educationalplatform.com</p>

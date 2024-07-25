@@ -1,1 +1,116 @@
-﻿
+﻿@{
+ViewData["Title"] = "Privacy";
+Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <link rel="stylesheet" href="~/css/Privacy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.4/collection/components/icon/icon.min.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="~/images/EAH_Long.png" alt="Educational Platform Logo" class="logo-img">
+    </div>
+    <nav>
+        <ul>
+            <li><a asp-action="Index" asp-controller="Home">Home</a></li>
+            <li><a asp-action="Login" asp-controller="Account">Login</a></li>
+            <li><a asp-action="Privacy" asp-controller="Home">Privacy</a></li>
+            <li><a asp-action="Terms" asp-controller="Home">Terms</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="privacy-policy">
+        <div class="container">
+            <h1>Privacy Policy</h1>
+            <p><strong>Last Updated: 26.07.2024</strong></p>
+            <p>Welcome to Educational Assignment Hub!</p>
+            <p>At Educational Assignment Hub ("we", "our", "us"), we value your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website. Please read this policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the Site.</p>
+
+            <h2>1. Information We Collect</h2>
+            <p>We may collect and process the following types of information:</p>
+            <ul>
+                <li>Personal Identification Information: Name, email address, phone number, and other contact details.</li>
+                <li>Academic Information: Grades, assignments, courses, and other related data.</li>
+                <li>Usage Data: Information about how you use our Site, including IP address, browser type, and pages visited.</li>
+                <li>Cookies and Tracking Technologies: We use cookies and other tracking technologies to enhance your experience on our Site. You can manage your cookie preferences through your browser settings.</li>
+            </ul>
+
+            <h2>2. How We Use Your Information</h2>
+            <p>We use the collected information for various purposes, including:</p>
+            <ul>
+                <li>To provide, operate, and maintain our Site.</li>
+                <li>To improve, personalize, and expand our Site.</li>
+                <li>To understand and analyze how you use our Site.</li>
+                <li>To communicate with you, including sending updates, notifications, and marketing materials (where applicable).</li>
+                <li>To manage and support your academic records and assignments.</li>
+                <li>To ensure the security and integrity of our Site and prevent fraudulent activities.</li>
+            </ul>
+
+            <h2>3. How We Share Your Information</h2>
+            <p>We may share your information in the following situations:</p>
+            <ul>
+                <li>With Service Providers: We may share your information with third-party service providers who perform services on our behalf, such as hosting, data analysis, and communication services.</li>
+                <li>For Legal Reasons: We may disclose your information if required to do so by law or in response to valid requests by public authorities.</li>
+                <li>Business Transfers: In the event of a merger, acquisition, or asset sale, your information may be transferred as part of the transaction.</li>
+            </ul>
+
+            <h2>4. Data Security</h2>
+            <p>We take reasonable measures to protect your information from unauthorized access, use, or disclosure. However, no method of transmission over the internet or electronic storage is completely secure. We cannot guarantee the absolute security of your information.</p>
+
+            <h2>5. Your Choices</h2>
+            <p>You have the following rights regarding your information:</p>
+            <ul>
+                <li>Access and Correction: You can request access to or correction of your personal information.</li>
+                <li>Opt-Out: You can opt out of receiving promotional communications from us by following the instructions in those communications.</li>
+                <li>Cookies: You can manage your cookie preferences through your browser settings.</li>
+            </ul>
+
+            <h2>6. Links to Other Sites</h2>
+            <p>Our Site may contain links to other websites that are not operated by us. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party websites.</p>
+
+            <h2>7. Children's Privacy</h2>
+            <p>Our Site is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected such information, we will take steps to delete it.</p>
+
+            <h2>8. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-links">
+        <a asp-action="Index" asp-controller="Home">Home</a>
+        <a asp-action="Privacy" asp-controller="Home">Privacy Policy</a>
+        <a asp-action="Terms" asp-controller="Home">Terms of Service</a>
+    </div>
+    <div class="footer-social">
+        <a href="#"><i class="icon ion-logo-facebook"></i></a>
+        <a href="#"><i class="icon ion-logo-twitter"></i></a>
+        <a href="#"><i class="icon ion-logo-linkedin"></i></a>
+    </div>
+    <div class="footer-contact">
+        <p>Email: <a href="mailto:support@example.com">support@example.com</a></p>
+        <p>Phone: +1 (123) 456-7890</p>
+    </div>
+    <div class="newsletter-signup">
+        <form>
+            <input type="email" placeholder="Subscribe to our newsletter" required>
+            <button type="submit" class="cta-btn">Subscribe</button>
+        </form>
+    </div>
+</footer>
+
+<script src="~/js/privacy.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

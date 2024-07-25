@@ -1,0 +1,153 @@
+﻿/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #071952;
+    margin: 0;
+    padding: 0;
+    background-color: #EBF4F6;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+    box-sizing: border-box; /* Ensure padding doesn't cause overflow */
+}
+
+a {
+    text-decoration: none;
+    color: #071952;
+}
+
+header {
+    background: transparent; /* Initial transparent background */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky; /* Make the header sticky */
+    top: 0; /* Stick to the top of the viewport */
+    z-index: 1000; /* Ensure it stays on top of other content */
+    width: 100%;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for background color and shadow */
+}
+
+header.scrolled {
+    background-color: #EBF4F6; /* Background color after scrolling past a certain point */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+
+header .logo img.logo-img {
+    height: 60px; /* Updated height */
+    width: 250px; /* Updated width */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li:last-child {
+    margin-right: 30px; /* Add extra space after the last item (Contact) */
+}
+
+header nav ul li a {
+    color: #071952; /* Dark navy text for links */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #088395; /* Darker teal on hover */
+}
+
+#privacy-policy {
+    padding: 2rem 1rem;
+    color: #071952;
+    background-color: #EBF4F6; /* Same background color as homepage for consistency */
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding doesn't cause overflow */
+}
+
+#privacy-policy h1 {
+    margin-bottom: 1rem;
+}
+
+#privacy-policy h2 {
+    margin-top: 2rem;
+}
+
+#privacy-policy p {
+    margin: 1rem 0;
+}
+
+#privacy-policy ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+#privacy-policy ul li {
+    margin: 0.5rem 0;
+}
+
+footer {
+    background-color: #071952; /* Dark navy for footer */
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding doesn't cause overflow */
+}
+
+.footer-links, .footer-social, .footer-contact, .newsletter-signup {
+    margin: 1rem 0;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    color: #37B7C3; /* Primary color on hover */
+}
+
+.footer-social a {
+    margin: 0 10px;
+}
+
+.footer-social i {
+    font-size: 30px;
+}
+
+.newsletter-signup input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+.newsletter-signup .cta-btn {
+    background-color: #37B7C3; /* Primary color for newsletter CTA */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.newsletter-signup .cta-btn:hover {
+    background-color: #088395; /* Darker teal on hover */
+}
+
+.footer-contact p {
+    color: white; /* Ensure text in footer contact section is white */
+}
+
+.footer-contact a {
+    color: white; /* Ensure links in footer contact section are white */
+}

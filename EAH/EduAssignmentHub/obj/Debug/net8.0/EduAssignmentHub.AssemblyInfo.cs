@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EduAssignmentHub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9928c5b896bff5dda158fe90399b8bcc0f9e20ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad82a28a96ea038101268661012e5ff698e86fc8")]
 [assembly: System.Reflection.AssemblyProductAttribute("EduAssignmentHub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EduAssignmentHub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
