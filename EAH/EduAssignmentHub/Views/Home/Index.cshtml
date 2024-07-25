@@ -23,7 +23,7 @@
             <li><a href="#features">Features</a></li>
             <li><a href="#how-it-works">How It Works</a></li>
             <li><a href="#resources">Resources</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a asp-action="Login" asp-controller="Account">Login</a></li>
         </ul>
     </nav>
 </header>
@@ -33,7 +33,7 @@
     <div class="hero-content">
         <h1>The best educational institution tool</h1>
         <p>Personalized to tailor to your needs.</p>
-        <button class="cta-btn">Get Started Now</button>
+        <button class="cta-btn"><a asp-action="StudentDashboard" asp-controller="Dashboard">Get Started Now</a></button>
     </div>
 </section>
 <!-- Features Section -->
@@ -106,7 +106,7 @@
         <a href="#features">Features</a>
         <a href="#how-it-works">How It Works</a>
         <a href="#resources">Resources</a>
-        <a href="#contact">Contact</a>
+        <a asp-action="Login" asp-controller="Account">Login</a>
         <a href="#">Privacy Policy</a>
         <a href="#">Terms of Service</a>
     </div>

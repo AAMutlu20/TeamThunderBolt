@@ -1,6 +1,5 @@
-﻿@page
-
-@{
+﻿@{
+    ViewData["Title"] = "Student Dashboard";
     Layout = null;
 }
 
@@ -10,19 +9,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Dashboard</title>
-    <link rel="stylesheet" href="css/SDb.css">
+    <link rel="stylesheet" href="~/css/students/student.css">
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.css"> <!-- Ionic Icons -->
 </head>
 <body>
 <header>
     <div class="logo"><a href="#">School Logo</a></div>
     <nav>
         <ul>
-            <li><a href="#" title="Home"><ion-icon name="home-outline"></ion-icon></a></li>
-            <li><a href="#" title="Assignments"><ion-icon name="clipboard-outline"></ion-icon></a></li>
-            <li><a href="#" title="Grades"><ion-icon name="book-outline"></ion-icon></a></li>
-            <li><a href="#" title="Profile"><ion-icon name="person-outline"></ion-icon></a></li>
-            <li><a href="#" title="Notifications"><ion-icon name="notifications-outline"><span class="badge">3</span></ion-icon></a></li>
-            <li><a href="#" title="Log out"><ion-icon name="power-outline"></ion-icon></a></li>
+            <<li><a asp-action="Index" asp-controller="Home" title="Home"><ion-icon name="home-outline"></ion-icon></a></li>
+            <li><a asp-action="StudentAssignments" asp-controller="Dashboard" title="Assignments"><ion-icon name="clipboard-outline"></ion-icon></a></li>
+            <li><a asp-action="StudentGrades" asp-controller="Dashboard" title="Grades"><ion-icon name="book-outline"></ion-icon></a></li>
+            <li><a asp-action="StudentNotifications" asp-controller="Dashboard" title="Notifications"><ion-icon name="notifications-outline"><span class="badge">2</span></ion-icon></a></li>
+            <li><a asp-action="Login" asp-controller="Account" title="Log out"><ion-icon name="power-outline"></ion-icon></a></li>
         </ul>
     </nav>
 </header>
@@ -43,7 +42,7 @@
         <div class="card grades-card">
             <h2>Grades</h2>
             <div class="grade-graph"></div>
-            <p>Average Grade: 85%</p>
+            <p>Average Grade: 5.50</p>
         </div>
     </div>
     <section class="assignments-section">
@@ -74,7 +73,7 @@
             <tr>
                 <td>Course Name</td>
                 <td><a href="#">Assignment Title</a></td>
-                <td class="grade A">A</td>
+                <td class="grade A">6</td>
                 <td><ion-icon name="calendar-outline"></ion-icon> July 22</td>
             </tr>
             <!-- Additional grades here -->
@@ -90,7 +89,7 @@
     <div class="useful-links">
         <a href="#">Privacy Policy</a>
         <a href="#">Terms of Service</a>
-        <a href="#">Help Center</a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Help Center</a>
         <a href="#">Feedback</a>
     </div>
     <div class="social-media">
@@ -102,6 +101,6 @@
 <!-- Ionicons -->
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<script src="js/SDb.js" defer></script>
+<script src="~/js/students/student.js"></script>
 </body>
 </html>

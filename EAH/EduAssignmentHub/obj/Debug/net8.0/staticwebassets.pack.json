@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\css\\students\\assignments_student.css",
+      "PackagePath": "staticwebassets\\css\\students\\assignments_student.css"
+    },
+    {
+      "Id": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\css\\students\\grades_student.css",
+      "PackagePath": "staticwebassets\\css\\students\\grades_student.css"
+    },
+    {
+      "Id": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\css\\students\\notifications_students.css",
+      "PackagePath": "staticwebassets\\css\\students\\notifications_students.css"
+    },
+    {
+      "Id": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\css\\students\\student.css",
+      "PackagePath": "staticwebassets\\css\\students\\student.css"
+    },
+    {
       "Id": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -35,6 +51,18 @@
     {
       "Id": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\js\\students\\assignments_student.js",
+      "PackagePath": "staticwebassets\\js\\students\\assignments_student.js"
+    },
+    {
+      "Id": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\js\\students\\grades_student.js",
+      "PackagePath": "staticwebassets\\js\\students\\grades_student.js"
+    },
+    {
+      "Id": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\js\\students\\student.js",
+      "PackagePath": "staticwebassets\\js\\students\\student.js"
     },
     {
       "Id": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\EduAssignmentHub\\wwwroot\\lib\\bootstrap\\LICENSE",

@@ -1,0 +1,133 @@
+﻿@{
+Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Grades</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/students/grades_student.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a href="#">School Logo</a>
+    </div>
+    <nav>
+        <ul>
+            <<li><a asp-action="Index" asp-controller="Home" title="Home"><ion-icon name="home-outline"></ion-icon></a></li>
+            <li><a asp-action="StudentAssignments" asp-controller="Dashboard" title="Assignments"><ion-icon name="clipboard-outline"></ion-icon></a></li>
+            <li><a asp-action="StudentGrades" asp-controller="Dashboard" title="Grades"><ion-icon name="book-outline"></ion-icon></a></li>
+            <li><a asp-action="StudentNotifications" asp-controller="Dashboard" title="Notifications"><ion-icon name="notifications-outline"><span class="badge">2</span></ion-icon></a></li>
+            <li><a asp-action="Login" asp-controller="Account" title="Log out"><ion-icon name="power-outline"></ion-icon></a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container mt-5">
+    <div class="grades-section">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2>Grades Overview</h2>
+            <!-- Print button aligned to the right -->
+            <button id="print-button" class="btn btn-secondary" onclick="window.location.href='/api/generate-word';"><ion-icon name="print-outline"></ion-icon> Print</button>
+        </div>
+        <div class="grades-table">
+            <!-- Example Class Rows -->
+            <div class="class-row">
+                <h3>Mathematics</h3>
+                <div class="grades">
+                    <span class="grade grade-5" data-bs-toggle="modal" data-bs-target="#gradeModal" data-course="Mathematics" data-assignment="Algebra Homework" data-grade="5" data-date="2023-07-15" data-description="Solve problems on page 32">5</span>
+                    <span class="grade grade-4" data-bs-toggle="modal" data-bs-target="#gradeModal" data-course="Mathematics" data-assignment="Geometry Quiz" data-grade="4" data-date="2023-07-10" data-description="Chapter 3 Quiz">4</span>
+                    <span class="grade grade-3" data-bs-toggle="modal" data-bs-target="#gradeModal" data-course="Mathematics" data-assignment="Calculus Exam" data-grade="3" data-date="2023-06-20" data-description="Integration Techniques">3</span>
+                    <span class="grade grade-6" data-bs-toggle="modal" data-bs-target="#gradeModal" data-course="Mathematics" data-assignment="Statistics Project" data-grade="6" data-date="2023-05-10" data-description="Analyze Data Sets">6</span>
+                    <span class="grade grade-2" data-bs-toggle="modal" data-bs-target="#gradeModal" data-course="Mathematics" data-assignment="Linear Algebra Test" data-grade="2" data-date="2023-04-15" data-description="Matrix Operations">2</span>
+                </div>
+            </div>
+            <div class="class-row">
+                <h3>History</h3>
+                <div class="grades">
+                    <span class="grade grade-6" data-bs-toggle="modal" data-bs-target="#gradeModal" data-course="History" data-assignment="World War II Essay" data-grade="6" data-date="2023-07-14" data-description="Write an essay on the causes of WWII">6</span>
+                    <span class="grade grade-5" data-bs-toggle="modal" data-bs-target="#gradeModal" data-course="History" data-assignment="Civil War Project" data-grade="5" data-date="2023-07-05" data-description="Create a project on the Civil War">5</span>
+                    <span class="grade grade-4" data-bs-toggle="modal" data-bs-target="#gradeModal" data-course="History" data-assignment="Ancient Egypt Report" data-grade="4" data-date="2023-06-22" data-description="Report on Ancient Egyptian Civilization">4</span>
+                </div>
+            </div>
+            <div class="class-row">
+                <h3>Science</h3>
+                <div class="grades">
+                    <span class="grade grade-3" data-bs-toggle="modal" data-bs-target="#gradeModal" data-course="Science" data-assignment="Chemistry Lab" data-grade="3" data-date="2023-07-18" data-description="Conduct experiments on chemical reactions">3</span>
+                    <span class="grade grade-6" data-bs-toggle="modal" data-bs-target="#gradeModal" data-course="Science" data-assignment="Physics Final" data-grade="6" data-date="2023-06-30" data-description="Final exam on physics concepts">6</span>
+                    <span class="grade grade-4" data-bs-toggle="modal" data-bs-target="#gradeModal" data-course="Science" data-assignment="Biology Project" data-grade="4" data-date="2023-05-25" data-description="Project on human anatomy">4</span>
+                    <span class="grade grade-5" data-bs-toggle="modal" data-bs-target="#gradeModal" data-course="Science" data-assignment="Earth Science Quiz" data-grade="5" data-date="2023-04-10" data-description="Quiz on Earth Science topics">5</span>
+                </div>
+            </div>
+            <!-- Add more class rows as needed -->
+            <!-- Example classes -->
+            <div class="class-row">
+                <h3>Literature</h3>
+                <div class="grades">
+                    <span class="grade grade-4" data-bs-toggle="modal" data-bs-target="#gradeModal" data-course="Literature" data-assignment="Shakespeare Essay" data-grade="4" data-date="2023-07-01" data-description="Essay on Shakespeare's works">4</span>
+                    <span class="grade grade-5" data-bs-toggle="modal" data-bs-target="#gradeModal" data-course="Literature" data-assignment="Poetry Analysis" data-grade="5" data-date="2023-06-15" data-description="Analyze selected poems">5</span>
+                </div>
+            </div>
+            <div class="class-row">
+                <h3>Art</h3>
+                <div class="grades">
+                    <span class="grade grade-6" data-bs-toggle="modal" data-bs-target="#gradeModal" data-course="Art" data-assignment="Painting Project" data-grade="6" data-date="2023-07-10" data-description="Create an original painting">6</span>
+                </div>
+            </div>
+            <!-- Add additional classes as needed to reach 13 -->
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="contact-info">
+        <p>Contact Us: (123) 456-7890</p>
+        <p>Email: info@school.edu</p>
+    </div>
+    <div class="useful-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Help Center</a>
+        <a href="#">Feedback</a>
+    </div>
+    <div class="social-media">
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+    </div>
+</footer>
+
+<!-- Modal -->
+<div class="modal fade" id="gradeModal" tabindex="-1" aria-labelledby="gradeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="gradeModalLabel">Grade Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Course:</strong> <span id="modal-course"></span></p>
+                <p><strong>Assignment:</strong> <span id="modal-assignment"></span></p>
+                <p><strong>Grade:</strong> <span id="modal-grade"></span></p>
+                <p><strong>Date Graded:</strong> <span id="modal-date"></span></p>
+                <p><strong>Description:</strong> <span id="modal-description"></span></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/students/grades_student.js"></script>
+</body>
+</html>

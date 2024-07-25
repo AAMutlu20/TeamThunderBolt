@@ -12,7 +12,7 @@
     right: 0;
     width: 50%;
     height: 100%;
-    background: #03A9F4;
+    background: #37B7C3; /* Primary Color */
 }
 
 .backLeft {
@@ -20,7 +20,7 @@
     left: 0;
     width: 50%;
     height: 100%;
-    background: #673AB7;
+    background: #088395; /* Accent Color */
 }
 
 #back {
@@ -74,58 +74,58 @@ input {
     width: 50%;
     height: 100%;
     overflow: scroll;
-    background: #2C3034;
+    background: #EBF4F6; /* Background Color */
     left: 0;
     position: absolute;
 }
 
 .left label {
-    color: #e3e3e3;
+    color: #071952; /* Text Color */
 }
 
 .left input {
-    border-bottom: 1px solid #e3e3e3;
-    color: #e3e3e3;
+    border-bottom: 1px solid #071952; /* Text Color */
+    color: #071952; /* Text Color */
 }
 
 .left input:focus, .left input:active {
-    border-color: #03A9F4;
-    color: #03A9F4;
+    border-color: #37B7C3; /* Primary Color */
+    color: #37B7C3; /* Primary Color */
 }
 
 .left input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 30px #2C3034 inset;
-    -webkit-text-fill-color: #e3e3e3;
+    -webkit-box-shadow: 0 0 0 30px #EBF4F6 inset; /* Background Color */
+    -webkit-text-fill-color: #071952; /* Text Color */
 }
 
 .left a {
-    color: #03A9F4;
+    color: #37B7C3; /* Primary Color */
 }
 
 .right {
     width: 50%;
     height: 100%;
     overflow: scroll;
-    background: #f9f9f9;
+    background: #EBF4F6; /* Background Color */
     right: 0;
     position: absolute;
 }
 
 .right label {
-    color: #212121;
+    color: #071952; /* Text Color */
 }
 
 .right input {
-    border-bottom: 1px solid #212121;
+    border-bottom: 1px solid #071952; /* Text Color */
 }
 
 .right input:focus, .right input:active {
-    border-color: #673AB7;
+    border-color: #088395; /* Accent Color */
 }
 
 .right input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 30px #f9f9f9 inset;
-    -webkit-text-fill-color: #212121;
+    -webkit-box-shadow: 0 0 0 30px #EBF4F6 inset; /* Background Color */
+    -webkit-text-fill-color: #071952; /* Text Color */
 }
 
 .content {
@@ -146,8 +146,8 @@ input {
 
 .role-button {
     background: none;
-    border: 1px solid #e3e3e3;
-    color: #e3e3e3;
+    border: 1px solid #071952; /* Text Color */
+    color: #071952; /* Text Color */
     padding: 0.5em 1em;
     text-transform: uppercase;
     font-size: 1em;
@@ -156,8 +156,8 @@ input {
 }
 
 .role-button:hover, .role-button:focus, .role-button:active {
-    background: #e3e3e3;
-    color: #212121;
+    background: #071952; /* Text Color */
+    color: #EBF4F6; /* Background Color */
 }
 
 .content h2 {
@@ -167,11 +167,11 @@ input {
 }
 
 .left .content h2 {
-    color: #03A9F4;
+    color: #37B7C3; /* Primary Color */
 }
 
 .right .content h2 {
-    color: #673AB7;
+    color: #088395; /* Accent Color */
 }
 
 .form-element {
@@ -190,8 +190,8 @@ input {
 .checkbox {
     -webkit-appearance: none;
     outline: none;
-    background-color: #e3e3e3;
-    border: 1px solid #e3e3e3;
+    background-color: #071952; /* Text Color */
+    border: 1px solid #071952; /* Text Color */
     box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
     padding: 12px;
     border-radius: 4px;
@@ -201,7 +201,7 @@ input {
 
 .checkbox:focus, .checkbox:checked:focus,
 .checkbox:active, .checkbox:checked:active {
-    border-color: #03A9F4;
+    border-color: #37B7C3; /* Primary Color */
     box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
 }
 
@@ -236,38 +236,38 @@ input {
 
 .form-checkbox label {
     font-size: 0.75em;
-    color: #e3e3e3;
+    color: #071952; /* Text Color */
     display: inline;
 }
 
 .form-checkbox label a {
-    color: #03A9F4;
+    color: #37B7C3; /* Primary Color */
 }
 
 .signup {
-    border: 1px solid #0287d9;
-    background: #0287d9;
+    border: 1px solid #088395; /* Accent Color */
+    background: #088395; /* Accent Color */
     padding: 0.8em 3em;
     font-size: 1em;
-    color: #e3e3e3;
+    color: #EBF4F6; /* Background Color */
     text-transform: uppercase;
     transition: all 0.3s;
 }
 
 .signup:hover, .signup:focus, .signup:active {
-    background: #0274b1;
+    background: #066c76; /* Slightly darker shade of Accent Color */
 }
 
 .login {
-    border: 1px solid #5f2a91;
-    background: #5f2a91;
+    border: 1px solid #37B7C3; /* Primary Color */
+    background: #37B7C3; /* Primary Color */
     padding: 0.8em 3em;
     font-size: 1em;
-    color: #e3e3e3;
+    color: #EBF4F6; /* Background Color */
     text-transform: uppercase;
     transition: all 0.3s;
 }
 
 .login:hover, .login:focus, .login:active {
-    background: #4e1f7e;
+    background: #2c9ca7; /* Slightly darker shade of Primary Color */
 }

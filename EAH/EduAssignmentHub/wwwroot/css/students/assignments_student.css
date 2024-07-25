@@ -1,0 +1,186 @@
+﻿/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #EBF4F6;
+    color: #071952;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #37B7C3;
+    padding: 10px 20px;
+    color: #fff;
+    border-bottom: 1px solid #2D8C92;
+}
+
+header .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    font-size: 24px;
+}
+
+nav ul li a .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: red;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    color: #fff;
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.assignments-section {
+    margin-top: 40px;
+}
+
+.assignments-table {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.assignment-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.assignment-card:hover {
+    transform: scale(1.02);
+}
+
+.assignment-card h3 {
+    color: #088395;
+    margin-bottom: 10px;
+}
+
+.assignment-card .assignment-title {
+    font-weight: bold;
+}
+
+.assignment-card .due-date {
+    color: #888;
+}
+
+/* Update the due date text when assignment is completed */
+.assignment-card .due-date.completed {
+    color: #6BCB77; /* Green color for completed status */
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #071952;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .contact-info, footer .useful-links, footer .social-media {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .useful-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+/* Modal */
+.modal-content {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    background-color: #37B7C3;
+    color: #fff;
+    border-bottom: 1px solid #2D8C92;
+}
+
+.modal-title {
+    font-size: 1.25em;
+}
+
+/* Modal Submit Button */
+#submitButton {
+    background-color: #6BCB77;
+    border-color: #6BCB77;
+    color: #fff;
+}
+
+#submitButton:hover {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
+
+/* Checkmark Icon */
+#checkmark {
+    color: #6BCB77; /* Green color for the checkmark */
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+/* Hide elements by default */
+.d-none {
+    display: none;
+}
+
+ion-icon {
+    font-size: 24px;
+    vertical-align: middle;
+    font-weight: bold;
+}

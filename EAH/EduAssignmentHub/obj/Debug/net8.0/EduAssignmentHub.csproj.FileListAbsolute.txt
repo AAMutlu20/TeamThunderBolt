@@ -137,3 +137,14 @@ D:\JetBrains Rider 2024.1.2\projects\TeamThunderBolt\EAH\EduAssignmentHub\obj\De
 D:\JetBrains Rider 2024.1.2\projects\TeamThunderBolt\EAH\EduAssignmentHub\obj\Debug\net8.0\EduAssignmentHub.pdb
 D:\JetBrains Rider 2024.1.2\projects\TeamThunderBolt\EAH\EduAssignmentHub\obj\Debug\net8.0\EduAssignmentHub.genruntimeconfig.cache
 D:\JetBrains Rider 2024.1.2\projects\TeamThunderBolt\EAH\EduAssignmentHub\obj\Debug\net8.0\ref\EduAssignmentHub.dll
+D:\JetBrains Rider 2024.1.2\projects\TeamThunderBolt\EAH\EduAssignmentHub\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\JetBrains Rider 2024.1.2\projects\TeamThunderBolt\EAH\EduAssignmentHub\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\JetBrains Rider 2024.1.2\projects\TeamThunderBolt\EAH\EduAssignmentHub\bin\Debug\net8.0\System.IO.Packaging.dll
+D:\JetBrains Rider 2024.1.2\projects\TeamThunderBolt\EAH\EduAssignmentHub\bin\Debug\net8.0\Xceed.Document.NET.dll
+D:\JetBrains Rider 2024.1.2\projects\TeamThunderBolt\EAH\EduAssignmentHub\bin\Debug\net8.0\Xceed.PDF.NET.dll
+D:\JetBrains Rider 2024.1.2\projects\TeamThunderBolt\EAH\EduAssignmentHub\bin\Debug\net8.0\Xceed.Words.NET.dll
+D:\JetBrains Rider 2024.1.2\projects\TeamThunderBolt\EAH\EduAssignmentHub\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\JetBrains Rider 2024.1.2\projects\TeamThunderBolt\EAH\EduAssignmentHub\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\JetBrains Rider 2024.1.2\projects\TeamThunderBolt\EAH\EduAssignmentHub\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\JetBrains Rider 2024.1.2\projects\TeamThunderBolt\EAH\EduAssignmentHub\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+D:\JetBrains Rider 2024.1.2\projects\TeamThunderBolt\EAH\EduAssignmentHub\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll

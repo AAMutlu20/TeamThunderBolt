@@ -1,0 +1,95 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/students/assignments_student.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a href="#">School Logo</a>
+    </div>
+    <nav>
+        <ul>
+            <<li><a asp-action="Index" asp-controller="Home" title="Home"><ion-icon name="home-outline"></ion-icon></a></li>
+            <li><a asp-action="StudentAssignments" asp-controller="Dashboard" title="Assignments"><ion-icon name="clipboard-outline"></ion-icon></a></li>
+            <li><a asp-action="StudentGrades" asp-controller="Dashboard" title="Grades"><ion-icon name="book-outline"></ion-icon></a></li>
+            <li><a asp-action="StudentNotifications" asp-controller="Dashboard" title="Notifications"><ion-icon name="notifications-outline"><span class="badge">2</span></ion-icon></a></li>
+            <li><a asp-action="Login" asp-controller="Account" title="Log out"><ion-icon name="power-outline"></ion-icon></a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="assignments-section">
+        <h2>Assignments</h2>
+        <div class="assignments-table">
+            <div class="assignment-card" data-bs-toggle="modal" data-bs-target="#assignmentModal" data-course="Math" data-title="Algebra Homework" data-due="2024-08-01" data-description="Solve algebra problems 1-20 from the textbook.">
+                <h3>Math</h3>
+                <p class="assignment-title">Algebra Homework</p>
+                <p class="due-date">Due: August 1, 2024</p>
+            </div>
+            <div class="assignment-card" data-bs-toggle="modal" data-bs-target="#assignmentModal" data-course="English" data-title="Essay on Shakespeare" data-due="2024-08-05" data-description="Write an essay on the themes in Shakespeare's plays.">
+                <h3>English</h3>
+                <p class="assignment-title">Essay on Shakespeare</p>
+                <p class="due-date">Due: August 5, 2024</p>
+            </div>
+            <!-- More assignment cards can be added here -->
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="contact-info">
+        <p>Contact Us: (123) 456-7890</p>
+        <p>Email: info@school.edu</p>
+    </div>
+    <div class="useful-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Help Center</a>
+        <a href="#">Feedback</a>
+    </div>
+    <div class="social-media">
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+    </div>
+</footer>
+<!-- Modal -->
+<div class="modal fade" id="assignmentModal" tabindex="-1" aria-labelledby="assignmentModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="assignmentModalLabel">Assignment Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Course:</strong> <span id="modal-course"></span></p>
+                <p><strong>Title:</strong> <span id="modal-title"></span></p>
+                <p><strong>Due Date:</strong> <span id="modal-due"></span><span id="checkmark" class="d-none"><ion-icon name="checkmark-circle-outline"></ion-icon></span></p>
+                <p><strong>Description:</strong></p>
+                <p id="modal-description"></p>
+                <input type="file" id="fileInput" class="d-none" accept=".pdf">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" id="submitButton">Submit</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/students/assignments_student.js"></script>
+</body>
+</html>

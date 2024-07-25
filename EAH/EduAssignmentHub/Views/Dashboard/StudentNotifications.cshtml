@@ -1,0 +1,85 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Grades</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/students/notifications_students.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a href="#">School Logo</a>
+    </div>
+    <nav>
+        <ul>
+            <<li><a asp-action="Index" asp-controller="Home" title="Home"><ion-icon name="home-outline"></ion-icon></a></li>
+            <li><a asp-action="StudentAssignments" asp-controller="Dashboard" title="Assignments"><ion-icon name="clipboard-outline"></ion-icon></a></li>
+            <li><a asp-action="StudentGrades" asp-controller="Dashboard" title="Grades"><ion-icon name="book-outline"></ion-icon></a></li>
+            <li><a asp-action="StudentNotifications" asp-controller="Dashboard" title="Notifications"><ion-icon name="notifications-outline"><span class="badge">2</span></ion-icon></a></li>
+            <li><a asp-action="Login" asp-controller="Account" title="Log out"><ion-icon name="power-outline"></ion-icon></a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container mt-5">
+    <div class="grades-section">
+        <h2 class="mb-4">Grades Overview</h2>
+        <table class="table table-striped">
+            <thead class="table-primary">
+            <tr>
+                <th scope="col">Course Name</th>
+                <th scope="col">Assignment Title</th>
+                <th scope="col">Grade</th>
+                <th scope="col">Date Graded</th>
+            </tr>
+            </thead>
+            <tbody>
+            <!-- Sample Data -->
+            <tr>
+                <td>Mathematics</td>
+                <td>Algebra Homework</td>
+                <td class="grade A">6<ion-icon name="checkmark-circle-outline"></ion-icon></td>
+                <td>2023-07-15</td>
+            </tr>
+            <tr>
+                <td>History</td>
+                <td>World War II Essay</td>
+                <td class="grade B">5<ion-icon name="alert-circle-outline"></ion-icon></td>
+                <td>2023-07-14</td>
+            </tr>
+            <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+</main>
+
+<footer>
+    <div class="contact-info">
+        <p>Contact Us: (123) 456-7890</p>
+        <p>Email: info@school.edu</p>
+    </div>
+    <div class="useful-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Help Center</a>
+        <a href="#">Feedback</a>
+    </div>
+    <div class="social-media">
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

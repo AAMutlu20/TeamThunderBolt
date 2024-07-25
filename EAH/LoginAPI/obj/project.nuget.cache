@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "VsQktJSwDHSFJzHA1Uvp6KTlkv1wBSYPPSmmDlwzemNhLm0q6RSEh9JvdDEf+yvt5mMdfQntgaqRgrSGfRYaDw==",
+  "dgSpecHash": "SjeldaUUbvLObU2ckhqyfZfThEguNlP1O/0jNEkOw6YfYva0Xn2JDZAWKjLoIHqoi0MtxOTqa7WNB5rRtK2OoQ==",
   "success": true,
   "projectFilePath": "D:\\JetBrains Rider 2024.1.2\\projects\\TeamThunderBolt\\EAH\\LoginAPI\\LoginAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\documentformat.openxml\\3.0.2\\documentformat.openxml.3.0.2.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\documentformat.openxml.framework\\3.0.2\\documentformat.openxml.framework.3.0.2.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
@@ -142,6 +144,7 @@
     "C:\\Users\\pc\\.nuget\\packages\\system.diagnostics.eventlog\\7.0.0\\system.diagnostics.eventlog.7.0.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\system.formats.asn1\\6.0.0\\system.formats.asn1.6.0.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\system.io.packaging\\8.0.0\\system.io.packaging.8.0.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\system.reflection.metadata\\7.0.0\\system.reflection.metadata.7.0.0.nupkg.sha512",
@@ -155,7 +158,10 @@
     "C:\\Users\\pc\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\system.threading.tasks.dataflow\\7.0.0\\system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
-    "C:\\Users\\pc\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+    "C:\\Users\\pc\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\xceed.document.net\\3.0.24152.1219\\xceed.document.net.3.0.24152.1219.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\xceed.pdf\\3.0.24152.1219\\xceed.pdf.3.0.24152.1219.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\xceed.words.net\\3.0.24152.1219\\xceed.words.net.3.0.24152.1219.nupkg.sha512"
   ],
   "logs": []
 }
